@@ -3,6 +3,7 @@
 .popup {
     display: none;
     position: fixed;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -11,23 +12,22 @@
     align-items: center;
 }
 .overlay {
-    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .content {
     width: 95%;
-    max-width: 80vw;
+    max-width: 780px;
     background: white;
     align-items: center;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.75) 0 -4px 21px -4px;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
     border-top: 5px solid #d50000;
 
     @media @smartphone {
