@@ -39,6 +39,8 @@ export default class Intro extends Component {
 							We use your data to help bring you personalised content, relevant ads, social media features, and to better understand how you use our website. To do this, we sometimes share this data with social media, advertising, and analytics partners, who may in turn combine it with other data you've given them. Visit our Privacy Policy for more information on our data collection practices.
 						</LocalLabel>
 					</div>
+				</div>
+				<div class={style.option}>
 					<div class={style.acceptBtnWrap}>
 						<Button
 							class={style.acceptAll}
@@ -47,8 +49,6 @@ export default class Intro extends Component {
 							<LocalLabel localizeKey='acceptAll'>Accept</LocalLabel>
 						</Button>
 					</div>
-				</div>
-				<div class={style.option}>
 					<span
 						class={style.rejectAll}
 						onClick={onShowPurposes}
