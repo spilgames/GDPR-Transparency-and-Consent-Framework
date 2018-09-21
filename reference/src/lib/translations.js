@@ -8,7 +8,7 @@ export default {
 	en: {
 		intro: {
 			title: 'Your privacy settings',
-			description: 'We use cookies to personalize and enhance your experience on our site. Visit our Privacy Policy for more information on our data collection practices. By clicking Accept, you agree to our use of cookies for the purposes listed in our Cookie Consent Tool. Otherwise you can learn more about our use of cookies by clicking Options.',
+			description: 'We use cookies to personalize and enhance your experience on our site. Visit our Privacy Policy for more information on our data collection practices. By clicking Accept, you agree to our use of cookies for the purposes listed in our Cookie Consent Tool. Otherwise you can learn more about our use of cookies by clicking Settings.',
 			acceptAll: 'Accept',
 			showPurposes: 'Settings'
 		},
@@ -65,7 +65,7 @@ export default {
 	nl: {
 		intro: {
 			title: 'Je privacyinstellingen',
-			description: 'We gebruiken cookies om uw ervaring op onze website te personaliseren en te verbeteren. Bezoek onze Privacyverklaring voor meer informatie over onze praktijken in het kader van gegevensverzameling. Door op Accepteren te klikken, gaat u ermee akkoord dat we cookies gebruiken voor de vermelde doelen in onze Tool Voor Cookietoestemming. Ook kunt u meer informatie vinden over ons cookiegebruik door op Opties te klikken.',
+			description: 'We gebruiken cookies om uw ervaring op onze website te personaliseren en te verbeteren. Bezoek onze Privacyverklaring voor meer informatie over onze praktijken in het kader van gegevensverzameling. Door op Accepteren te klikken, gaat u ermee akkoord dat we cookies gebruiken voor de vermelde doelen in onze Tool Voor Cookietoestemming. Ook kunt u meer informatie vinden over ons cookiegebruik door op Instellingen te klikken.',
 			acceptAll: 'Accepteren',
 			showPurposes: 'Instellingen'
 		},
@@ -179,7 +179,7 @@ export default {
 	de: {
 		intro: {
 			title: 'Ihre datenschutzeinstellungen',
-			description: 'Wir verwenden Cookies, um Ihr Erlebnis auf unserer Website so angenehm wie möglich zu gestalten.  Weitere Informationen über unsere Datenerfassungspraktiken finden Sie in unserer Datenschutzrichtlinie. Durch Klicken auf Akzeptieren erkären Sie sich mit der Verwendung von Cookies für die in unserem Tool zur Cookie-Kontrolle aufgeführten Zwecke einverstanden. Ansonsten können Sie auf Optionen klicken, um mehr über unserer Verwendung von Cookies zu erfahren.',
+			description: 'Wir verwenden Cookies, um Ihr Erlebnis auf unserer Website so angenehm wie möglich zu gestalten.  Weitere Informationen über unsere Datenerfassungspraktiken finden Sie in unserer Datenschutzrichtlinie. Durch Klicken auf Akzeptieren erkären Sie sich mit der Verwendung von Cookies für die in unserem Tool zur Cookie-Kontrolle aufgeführten Zwecke einverstanden. Ansonsten können Sie auf Einstellungen klicken, um mehr über unserer Verwendung von Cookies zu erfahren.',
 			acceptAll: 'Annehmen',
 			showPurposes: 'Einstellungen'
 		},
@@ -236,7 +236,7 @@ export default {
 	es: {
 		intro: {
 			title: 'Su configuración de privacidad',
-			description: 'Utilizamos cookies para personalizar y mejorar su experiencia en nuestro sitio. Visite nuestra Política de Privacidad para obtener más información sobre nuestras prácticas de recopilación de datos. Al hacer clic en Aceptar, nos autoriza a usar cookies para los fines enumerados en nuestra Herramienta de Consentimiento de Cookie. También puede obtener más información sobre la forma en que usamos las cookies haciendo clic en Opciones.',
+			description: 'Utilizamos cookies para personalizar y mejorar su experiencia en nuestro sitio. Visite nuestra Política de Privacidad para obtener más información sobre nuestras prácticas de recopilación de datos. Al hacer clic en Aceptar, nos autoriza a usar cookies para los fines enumerados en nuestra Herramienta de Consentimiento de Cookie. También puede obtener más información sobre la forma en que usamos las cookies haciendo clic en Configuración.',
 			acceptAll: 'Aceptar',
 			showPurposes: 'Configuración'
 		},
@@ -293,7 +293,7 @@ export default {
 	pt: {
 		intro: {
 			title: 'Suas configurações de privacidade',
-			description: 'Usamos cookies para personalizar e melhorar sua experiência no nosso site. Acesse a nossa Política de Privacidade para obter mais informações sobre as nossas práticas de coleta de dados. Ao clicar em Aceitar, você concorda com o uso de cookies para os fins listados na nossa Ferramenta Consentimento Cookie. Caso contrário, você pode clicar em Opções para saber mais sobre o uso de cookies.',
+			description: 'Usamos cookies para personalizar e melhorar sua experiência no nosso site. Acesse a nossa Política de Privacidade para obter mais informações sobre as nossas práticas de coleta de dados. Ao clicar em Aceitar, você concorda com o uso de cookies para os fins listados na nossa Ferramenta Consentimento Cookie. Caso contrário, você pode clicar em Configurações para saber mais sobre o uso de cookies.',
 			acceptAll: 'Aceitar',
 			showPurposes: 'Configurações'
 		},
@@ -350,7 +350,7 @@ export default {
 	it: {
 		intro: {
 			title: 'Le tue impostazioni sulla privacy',
-			description: 'Utilizziamo i cookie al fine di personalizzare e migliorare la tua esperienza sul nostro sito. Visita la nostra Informativa sulla privacy per maggiori informazioni sulle nostre pratiche di raccolta dati. Facendo clic su Accetta, accetti l`utilizzo da parte nostra dei cookie per gli scopi indicati nel nostro Strumento Consenso Cookie. Altrimenti puoi acquisire maggiori informazioni sul nostro utilizzo dei cookie facendo clic su Opzioni.',
+			description: 'Utilizziamo i cookie al fine di personalizzare e migliorare la tua esperienza sul nostro sito. Visita la nostra Informativa sulla privacy per maggiori informazioni sulle nostre pratiche di raccolta dati. Facendo clic su Accetta, accetti l`utilizzo da parte nostra dei cookie per gli scopi indicati nel nostro Strumento Consenso Cookie. Altrimenti puoi acquisire maggiori informazioni sul nostro utilizzo dei cookie facendo clic su Impostazioni.',
 			acceptAll: 'Accetta',
 			showPurposes: 'Impostazioni'
 		},
@@ -407,7 +407,7 @@ export default {
 	sv: {
 		intro: {
 			title: 'Dina integritetsinställningar',
-			description: 'Vi använder cookies för att anpassa och förbättra din upplevelse på vår webbplats. Läs vår Sekretesspolicy för mer information om våra datainsamlingsmetoder. Genom att klicka på Tillåt godkänner du att vi använder cookies i de syften som beskrivs i Samtyckesverktyget för cookies.  Du kan få mer information om vår användning av cookies genom att klicka på Alternativ.',
+			description: 'Vi använder cookies för att anpassa och förbättra din upplevelse på vår webbplats. Läs vår Sekretesspolicy för mer information om våra datainsamlingsmetoder. Genom att klicka på Tillåt godkänner du att vi använder cookies i de syften som beskrivs i Samtyckesverktyget för cookies.  Du kan få mer information om vår användning av cookies genom att klicka på SPARA INSTÄLLNINGAR.',
 			acceptAll: 'Acceptera',
 			showPurposes: 'SPARA INSTÄLLNINGAR'
 		},
@@ -464,7 +464,7 @@ export default {
 	pl: {
 		intro: {
 			title: 'Ustawienia prywatności',
-			description: 'Ta witryna korzysta z plików cookie, które służą do personalizacji i optymalizują działanie naszego serwisu. Więcej informacji o naszych procedurach gromadzenia danych znajduje się w Zasady ochrony prywatności. Klikając Akceptuję wyrażasz zgodę na wykorzystywanie przez nas plików cookie do celów wymienionych w naszym Narzędzie Zgoda na Cookies. Aby dowiedzieć się więcej na temat wykorzystywania przez nas plików cookie, prosimy kliknąć Opcje.',
+			description: 'Ta witryna korzysta z plików cookie, które służą do personalizacji i optymalizują działanie naszego serwisu. Więcej informacji o naszych procedurach gromadzenia danych znajduje się w Zasady ochrony prywatności. Klikając Akceptuję wyrażasz zgodę na wykorzystywanie przez nas plików cookie do celów wymienionych w naszym Narzędzie Zgoda na Cookies. Aby dowiedzieć się więcej na temat wykorzystywania przez nas plików cookie, prosimy kliknąć Ustawienia.',
 			acceptAll: 'Akceptuj',
 			showPurposes: 'Ustawienia'
 		},
@@ -521,7 +521,7 @@ export default {
 	ru: {
 		intro: {
 			title: 'Ваши настройки конфиденциальности',
-			description: 'Мы применяем файлы cookie для персонализации и повышения удобства пользования нашим сайтом.  Подробную информацию о нашей практике сбора данных смотрите в Политике конфиденциальности.  Нажимая Принять, вы соглашаетесь с применением нами файлов cookie в целях, указанных в инструменте Cookie Consent Tool. Или же можете узнать подробную информацию об использовании нами файлов cookie, нажав на Опции.',
+			description: 'Мы применяем файлы cookie для персонализации и повышения удобства пользования нашим сайтом.  Подробную информацию о нашей практике сбора данных смотрите в Политике конфиденциальности.  Нажимая Принять, вы соглашаетесь с применением нами файлов cookie в целях, указанных в инструменте Cookie Consent Tool. Или же можете узнать подробную информацию об использовании нами файлов cookie, нажав на Настройки.',
 			acceptAll: 'Принять',
 			showPurposes: 'Настройки'
 		},
@@ -578,7 +578,7 @@ export default {
 	id: {
 		intro: {
 			title: 'Pengaturan privasi anda',
-			description: 'Kami menggunakan cookie untuk mempersonalisasikan dan meningkatkan pengalaman Anda pada situs kami. Kunjungi Kebijakan Privasi kami untuk informasi lebih lanjut tentang praktik pengumpulan data kami. Dengan mengeklik Terima, Anda setuju menggunakan cookie untuk tujuan yang tercantum dalam Alat Bantu Izin cookie kami. Atau, Anda bisa mempelajari lebih lanjut tentang penggunaan cookie kami dengan mengeklik Opsi.',
+			description: 'Kami menggunakan cookie untuk mempersonalisasikan dan meningkatkan pengalaman Anda pada situs kami. Kunjungi Kebijakan Privasi kami untuk informasi lebih lanjut tentang praktik pengumpulan data kami. Dengan mengeklik Terima, Anda setuju menggunakan cookie untuk tujuan yang tercantum dalam Alat Bantu Izin cookie kami. Atau, Anda bisa mempelajari lebih lanjut tentang penggunaan cookie kami dengan mengeklik Pengaturan.',
 			acceptAll: 'Terima',
 			showPurposes: 'Pengaturan'
 		},
@@ -635,7 +635,7 @@ export default {
 	tr: {
 		intro: {
 			title: 'Gi̇zli̇li̇k ayarlariniz',
-			description: 'Sitemizdeki deneyiminizi kişiselleştirmek ve geliştirmek için çerezleri kullanırız. Veri toplama uygulamalarımız hakkında daha fazla bilgi için gizlilik ilkesi sayfamızı ziyaret edin. Onaylamak seçeneğine tıklayarak çerez onay aracı bölümümüzde listelenen amaçlar için çerezleri kullanmamızı kabul etmiş olursunuz. Aksi takdirde, Seçenekler ögesine tıklayarak çerez kullanımımız hakkında daha fazla bilgi edinebilirsiniz.',
+			description: 'Sitemizdeki deneyiminizi kişiselleştirmek ve geliştirmek için çerezleri kullanırız. Veri toplama uygulamalarımız hakkında daha fazla bilgi için gizlilik ilkesi sayfamızı ziyaret edin. Onaylamak seçeneğine tıklayarak çerez onay aracı bölümümüzde listelenen amaçlar için çerezleri kullanmamızı kabul etmiş olursunuz. Aksi takdirde, Ayarlar ögesine tıklayarak çerez kullanımımız hakkında daha fazla bilgi edinebilirsiniz.',
 			acceptAll: 'Kabul Et',
 			showPurposes: 'Ayarlar'
 		},
