@@ -1,22 +1,21 @@
 @import '../../../style/variables';
 
 div.intro {
-	padding: 28px 27px 32px;
 	max-height: 100%;
+	padding: 14px 27px;
 
 	.introWrap {
 		display: flex;
 		flex-direction: row;
 		flex: 1;
 		align-items: center;
-
 		@media @smartphone {
 			display: block;
 		}
 	}
 
 	.title {
-		font-size: 18px;
+		font-size: 22px;
 		font-weight: 400;
 		border-bottom: 1px solid #e8e8e8;
 		padding: 0 0 8px;
@@ -24,29 +23,34 @@ div.intro {
 		width: 100%;
 	}
 	.description {
-		margin: 22px 0;
+		margin: 1em 0;
 		overflow: auto;
-		flex: 100% 0 0;
+		flex: 75% 0 0;
 		font-size: 13px;
-	}
-	.option {
-		display: inline-block;
-		vertical-align: middle;
-		margin: 0 20px;
 	}
 	.options {
 		padding-bottom: 10px;
 	}
 	.rejectAll {
 		font-size: 18px;
-		padding: 5px 0 5px;
+		padding: 2px 0 5px 25px;
 		cursor: pointer;
 		text-decoration: underline;
 		color:#696969;
 		position: relative;
-		text-transform: uppercase;
 		&:hover {
 			text-decoration: none;
+		}
+		&:before {
+			content: '';
+			background: url(//images.cdn.spilcloud.com/images/1528358577_gdprsettingsicon.png);
+			background-size: 17px 19px;
+			width: 17px;
+			height: 19px;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			margin-top: -11px;
 		}
 		@media @smartphone {
 			margin: 1em 0;
@@ -54,20 +58,60 @@ div.intro {
 		}
 	}
 	.acceptBtnWrap {
-		display: inline-block;
-		vertical-align: middle;
-		text-align: left;
-		@media @smartphone {
-			display: block;
-		}
+		flex: 25% 0 0;
+		text-align: center;
 	}
 	.acceptAll {
-		font-size: 18px;
+		font-size: 26px;
 		box-shadow: 2px 2px 0 #d55c00;
-		padding: 9px 23px;
+		padding: 9px 40px;
 		font-weight: 400;
 		@media @smartphone {
 			width: 100%;
 		}
+	}
+}
+
+div.intro[data-theme="barrier"] {
+	padding: 28px 27px 32px;
+	.title {
+		font-size: 18px;
+	}
+	.description {
+		margin: 22px 0;
+		flex: 100% 0 0;
+	}
+	.introWrap {
+		display: block;
+	}
+	.wrap {
+		display: block;
+	}
+	.option {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 6px 20px;
+		@media @smartphone {
+			display: block;
+			text-align: center;
+		}
+	}
+	.rejectAll {
+		padding: 5px 0 5px;
+		text-transform: uppercase;
+		&:before {
+			display: none;
+		}
+	}
+	.acceptBtnWrap {
+		float: left;
+		@media @smartphone {
+			display: block;
+			float: none;
+		}
+	}
+	.acceptAll {
+		font-size: 18px;
+		padding: 9px 23px;
 	}
 }

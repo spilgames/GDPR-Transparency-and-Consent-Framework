@@ -3,7 +3,6 @@
 .popup {
     display: none;
     position: fixed;
-    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -12,26 +11,50 @@
     align-items: center;
 }
 .overlay {
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .content {
     width: 95%;
-    max-width: 780px;
+    max-width: 80vw;
     background: white;
     align-items: center;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.75) 0 -4px 21px -4px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     border-top: 5px solid #d50000;
-
     @media @smartphone {
         width: 100%;
         max-width: 95vw;
+    }
+}
+
+.popup_popup {
+    top: 0;
+    .popup_overlay {
+        display: block;
+    }
+    .popup_content {
+        max-width: 780px;
+        border-radius: 5px;
+    }
+}
+
+.popup {
+    &[data-theme="barrier"] {
+        top: 0;
+        .overlay {
+            display: block;
+        }
+        .content {
+            max-width: 780px;
+            border-radius: 5px;
+        }
     }
 }
