@@ -3,7 +3,7 @@ import style from './popup.less';
 import Intro from './intro/intro';
 import Details from './details/details';
 import Panel from '../panel/panel';
-
+import config from '../../lib/config.js';
 
 const SECTION_INTRO = 0;
 const SECTION_DETAILS = 1;
@@ -43,15 +43,16 @@ export default class Popup extends Component {
 		const { store } = props;
 		const { selectedPanelIndex } = state;
 		const { isConsentToolShowing } = store;
+		const { theme } = config;
 
 		return (
 			<div
 				class={style.popup}
 				style={{ display: isConsentToolShowing ? 'flex' : 'none' }}
+				data-theme={theme}
 			>
 				<div
 					class={style.overlay}
-					onClick={this.handleClose}
 				/>
 				<div class={style.content}>
 					<Panel selectedIndex={selectedPanelIndex}>

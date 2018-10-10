@@ -1,8 +1,8 @@
 @import '../../../style/variables';
 
 div.intro {
-	padding: 14px 27px;
 	max-height: 100%;
+	padding: 14px 27px;
 
 	.introWrap {
 		display: flex;
@@ -69,5 +69,49 @@ div.intro {
 		@media @smartphone {
 			width: 100%;
 		}
+	}
+}
+
+div.intro[data-theme="barrier"] {
+	padding: 28px 27px 32px;
+	.title {
+		font-size: 18px;
+	}
+	.description {
+		margin: 22px 0;
+		flex: 100% 0 0;
+	}
+	.introWrap {
+		display: block;
+	}
+	.wrap {
+		display: block;
+	}
+	.option {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 6px 20px;
+		@media @smartphone {
+			display: block;
+			text-align: center;
+		}
+	}
+	.rejectAll {
+		padding: 5px 0 5px;
+		text-transform: uppercase;
+		&:before {
+			display: none;
+		}
+	}
+	.acceptBtnWrap {
+		float: left;
+		@media @smartphone {
+			display: block;
+			float: none;
+		}
+	}
+	.acceptAll {
+		font-size: 18px;
+		padding: 9px 23px;
 	}
 }
