@@ -3,13 +3,14 @@ import style from './intro.less';
 import Button from '../../button/button';
 import Label from '../../label/label';
 import CloseButton from '../../closebutton/closebutton';
-import config from '../../../lib/config.js';
 
 class LocalLabel extends Label {
 	static defaultProps = {
 		prefix: 'intro'
 	};
 }
+
+const HOST_PARTS = ((window && window.location && window.location.hostname) || '').split('.');
 
 export default class Intro extends Component {
 
@@ -23,10 +24,8 @@ export default class Intro extends Component {
 			onClose
 		} = props;
 
-		const { theme } = config;
-
 		return (
-			<div class={style.intro} data-theme={theme}>
+			<div class={style.intro}>
 				<CloseButton
 					class={style.close}
 					onClick={onClose}
