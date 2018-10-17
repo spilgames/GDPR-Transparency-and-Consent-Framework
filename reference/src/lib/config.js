@@ -9,8 +9,7 @@ const defaultConfig = {
 	logging: false,
 	localization: {},
 	forceLocale: null,
-	gdprApplies: true,
-	theme: 'default'
+	gdprApplies: true
 };
 
 class Config {
