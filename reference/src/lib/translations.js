@@ -65,7 +65,7 @@ export default {
 	nl: {
 		intro: {
 			title: 'Je privacyinstellingen',
-			description: 'We gebruiken cookies om uw ervaring op onze website te personaliseren en te verbeteren. Bezoek onze <a href="/privacybeleid"> Privacyverklaring </a> voor meer informatie over onze praktijken in het kader van gegevensverzameling. Door op Accepteren te klikken, gaat u ermee akkoord dat we cookies gebruiken voor de vermelde doelen in onze Tool Voor Cookietoestemming. Ook kunt u meer informatie vinden over ons cookiegebruik door op Instellingen te klikken.',
+			description: 'We gebruiken cookies om uw ervaring op onze website te personaliseren en te verbeteren. Bezoek onze Privacyverklaring voor meer informatie over onze praktijken in het kader van gegevensverzameling. Door op Accepteren te klikken, gaat u ermee akkoord dat we cookies gebruiken voor de vermelde doelen in onze Tool Voor Cookietoestemming. Ook kunt u meer informatie vinden over ons cookiegebruik door op Instellingen te klikken.',
 			acceptAll: 'Accepteren',
 			showPurposes: 'Instellingen'
 		},
