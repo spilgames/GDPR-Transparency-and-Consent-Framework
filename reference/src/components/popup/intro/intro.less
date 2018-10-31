@@ -8,6 +8,7 @@ div.intro {
 		display: flex;
 		flex-direction: row;
 		flex: 1;
+		justify-content: space-between;
 		align-items: center;
 		@media @smartphone {
 			display: block;
@@ -15,11 +16,10 @@ div.intro {
 	}
 
 	.title {
-		font-size: 22px;
-		font-weight: 400;
-		border-bottom: 1px solid #e8e8e8;
-		padding: 0 0 8px;
-		color: #0065a0;
+		margin-bottom: -20px;
+		font-size: 16px;
+		font-weight: 600;
+		color: black;
 		width: 100%;
 	}
 	.description {
@@ -28,29 +28,13 @@ div.intro {
 		flex: 75% 0 0;
 		font-size: 13px;
 	}
-	.options {
-		padding-bottom: 10px;
-	}
 	.rejectAll {
-		font-size: 18px;
-		padding: 2px 0 5px 25px;
+		font-size: 14px;
 		cursor: pointer;
 		text-decoration: underline;
 		color:#696969;
-		position: relative;
 		&:hover {
 			text-decoration: none;
-		}
-		&:before {
-			content: '';
-			background: url(//images.cdn.spilcloud.com/images/1528358577_gdprsettingsicon.png);
-			background-size: 17px 19px;
-			width: 17px;
-			height: 19px;
-			position: absolute;
-			left: 0;
-			top: 50%;
-			margin-top: -11px;
 		}
 		@media @smartphone {
 			margin: 1em 0;
@@ -58,16 +42,38 @@ div.intro {
 		}
 	}
 	.acceptBtnWrap {
+		margin-bottom: 5px;
+		z-index: 1;
 		flex: 25% 0 0;
 		text-align: center;
 	}
 	.acceptAll {
 		font-size: 26px;
-		box-shadow: 2px 2px 0 #d55c00;
+		background-color: #81AF4C;
+		box-shadow: 2px 2px 0 #518515;
 		padding: 9px 40px;
 		font-weight: 400;
+		&:hover {
+			color: #518515;
+		}
 		@media @smartphone {
 			width: 100%;
+		}
+	}
+	.mascotWrap {
+		display: flex;
+		flex-direction: column;
+		padding-top: 15px;
+		align-items: center;
+		position: relative;
+	}
+	.mascotLogo {
+		width: 100px;
+		position: absolute;
+		bottom: 60px;
+
+		@media @smartphone {
+			display: none;
 		}
 	}
 }
