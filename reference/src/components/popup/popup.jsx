@@ -3,7 +3,7 @@ import style from './popup.less';
 import Intro from './intro/intro';
 import Details from './details/details';
 import Panel from '../panel/panel';
-import config from '../../lib/config';
+
 
 const SECTION_INTRO = 0;
 const SECTION_DETAILS = 1;
@@ -43,7 +43,6 @@ export default class Popup extends Component {
 		const { store } = props;
 		const { selectedPanelIndex } = state;
 		const { isConsentToolShowing } = store;
-		const { logoUrl } = config;
 
 		return (
 			<div
@@ -55,9 +54,6 @@ export default class Popup extends Component {
 					onClick={this.handleClose}
 				/>
 				<div class={style.content}>
-					<div class={style.logoContainer}>
-						<img class={style.logoImage} src={logoUrl}/>
-					</div>
 					<Panel selectedIndex={selectedPanelIndex}>
 						<Intro
 							onAcceptAll={this.onAcceptAll}
