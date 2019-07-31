@@ -34,12 +34,12 @@
 
 # Introduction <a name="Introduction"></a>
 
-In February 2017, the IAB Europe assembled parties representing both the supply and demand sides of the digital advertising ecosystem, to work collectively on guidance and solutions to the requirements of the General Data Protection Regulation (GDPR).  That working group is known as the GDPR Implementation Working Group (GIG).  One of the sub-groups within the GIG was tasked with developing guidance on consent as a legal basis for processing personal data. Out of that effort, an additional working group was formed to develop a technical solution to the challenge of obtaining and disseminating consumer consent to the various parties relying on it as a legal basis of processing personal data.
+In February 2017, the IAB Europe assembled parties representing both the supply, and demand sides of the digital advertising ecosystem, to work collectively on guidance, and solutions to the requirements of the General Data Protection Regulation (GDPR). That working group is known as the GDPR Implementation Working Group (GIG). One of the sub-groups within the GIG was tasked with developing guidance on consent as a legal basis for processing personal data. Out of that effort, an additional working group was formed to develop a technical solution to the challenge of obtaining and disseminating consumer consent to the various parties relying on it as a legal basis of processing personal data.
 
 ## About the Transparency & Consent Framework <a name="About-the-Framework"></a>
 
-The scope of the technical working group?s initiative increased to include a technical industry solution to allow website operators to:
-1.  Control the vendors they wish to allow to access their users? browsers (for setting and reading cookies) and process their personal data and disclose these choices to other parties in the online advertising ecosystem
+The scope of the technical working group's initiative increased to include a technical industry solution to allow website operators to:
+1. Control the vendors they wish to allow to access their users' browsers (for setting and reading cookies) and process their personal data and disclose these choices to other parties in the online advertising ecosystem
 2. Seek user consent under the ePrivacy Directive (for setting cookies or similar technical applications that access information on a device) and/or the GDPR in line with applicable legal requirements and signal the consent status through the online advertising ecosystem
  
 In summary, have one place to go to:
@@ -68,13 +68,13 @@ Resources including policy FAQ, Global Vendor List Registration, and CMP registr
 
 For purposes of this documentation, the following terms have the following definitions: 
 
-* "**_CMP_**" means a company that can read the vendors chosen by a website operator and the consent status of an end user (either service specific (through a first-party cookie) or global (through a third-party cookie).  A CMP is not synonymous with a company that surfaces the user interface to a user (although it can be the same).   
+* "**_CMP_**" means a company that can read the vendors chosen by a website operator and the consent status of an end user (either service specific (through a first-party cookie) or global (through a third-party cookie)). A CMP is not synonymous with a company that surfaces the user interface to a user (although it can be the same).   
 
 * "**_Purposes_**" mean the purposes for which a Controller enabled by a website operator is using personal data collected from (or received by a third party) about an end user.
 
 * "**_Daisybit_**" means information compressed into a binary value and passed throughout the online advertising ecosystem through the OpenRTB specification.
 
-* "**_Vendor_**" means a third party that a website operator is using in connection with surfacing content to its end users that either (1) accesses an end user?s device or browser; and/or (2) collects or receives personal data about the website operator?s end users.  As such, a vendor need not be a Controller.
+* "**_Vendor_**" means a third party that a website operator is using in connection with surfacing content to its end users that either (1) accesses an end user's device or browser; and/or (2) collects or receives personal data about the website operator's end users. As such, a vendor need not be a Controller.
 
 ## License <a name="License"></a>
 
@@ -88,11 +88,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Disclaimer <a name="Disclaimer"></a>
 
-THE STANDARDS, THE SPECIFICATIONS, THE MEASUREMENT GUIDELINES, AND ANY OTHER MATERIALS OR SERVICES PROVIDED TO OR USED BY YOU HEREUNDER (THE "PRODUCTS AND SERVICES") ARE PROVIDED ?AS IS? AND ?AS AVAILABLE,? AND IAB TECHNOLOGY LABORATORY, INC. (?TECH LAB?) MAKES NO WARRANTY WITH RESPECT TO THE SAME AND HEREBY DISCLAIMS ANY AND ALL EXPRESS, IMPLIED, OR STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, ERROR-FREE OR UNINTERRUPTED OPERATION, AND ANY WARRANTIES ARISING FROM A COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE OF TRADE.  TO THE EXTENT THAT TECH LAB MAY NOT AS A MATTER OF APPLICABLE LAW DISCLAIM ANY IMPLIED WARRANTY, THE SCOPE AND DURATION OF SUCH WARRANTY WILL BE THE MINIMUM PERMITTED UNDER SUCH LAW.  THE PRODUCTS AND SERVICES DO NOT CONSTITUTE BUSINESS OR LEGAL ADVICE.  TECH LAB DOES NOT WARRANT THAT THE PRODUCTS AND SERVICES PROVIDED TO OR USED BY YOU HEREUNDER SHALL CAUSE YOU AND/OR YOUR PRODUCTS OR SERVICES TO BE IN COMPLIANCE WITH ANY APPLICABLE LAWS, REGULATIONS, OR SELF-REGULATORY FRAMEWORKS, AND YOU ARE SOLELY RESPONSIBLE FOR COMPLIANCE WITH THE SAME.
+THE STANDARDS, THE SPECIFICATIONS, THE MEASUREMENT GUIDELINES, AND ANY OTHER MATERIALS OR SERVICES PROVIDED TO OR USED BY YOU HEREUNDER (THE "PRODUCTS AND SERVICES") ARE PROVIDED "AS IS" AND "AS AVAILABLE," AND IAB TECHNOLOGY LABORATORY, INC. ("TECH LAB") MAKES NO WARRANTY WITH RESPECT TO THE SAME AND HEREBY DISCLAIMS ANY AND ALL EXPRESS, IMPLIED, OR STATUTORY WARRANTIES, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AVAILABILITY, ERROR-FREE OR UNINTERRUPTED OPERATION, AND ANY WARRANTIES ARISING FROM A COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE OF TRADE. TO THE EXTENT THAT TECH LAB MAY NOT AS A MATTER OF APPLICABLE LAW DISCLAIM ANY IMPLIED WARRANTY, THE SCOPE AND DURATION OF SUCH WARRANTY WILL BE THE MINIMUM PERMITTED UNDER SUCH LAW. THE PRODUCTS AND SERVICES DO NOT CONSTITUTE BUSINESS OR LEGAL ADVICE. TECH LAB DOES NOT WARRANT THAT THE PRODUCTS AND SERVICES PROVIDED TO OR USED BY YOU HEREUNDER SHALL CAUSE YOU AND/OR YOUR PRODUCTS OR SERVICES TO BE IN COMPLIANCE WITH ANY APPLICABLE LAWS, REGULATIONS, OR SELF-REGULATORY FRAMEWORKS, AND YOU ARE SOLELY RESPONSIBLE FOR COMPLIANCE WITH THE SAME.
 
 ## About IAB Tech Lab  <a name="About-Tech-Lab"></a>
 
-The IAB Technology Laboratory (?Tech Lab?) is a non-profit research and development consortium that produces and provides standards, software, and services to drive growth of an effective and sustainable global digital media ecosystem. Comprised of digital publishers and ad technology firms, as well as marketers, agencies, and other companies with interests in the interactive marketing arena, IAB Tech Lab aims to enable brand and media growth via a transparent, safe, effective supply chain, simpler and more consistent measurement, and better advertising experiences for consumers, with a focus on mobile and ?TV?/digital video channel enablement. The IAB Tech Lab portfolio includes the DigiTrust real-time standardized identity service designed to improve the digital experience for consumers, publishers, advertisers, and third-party platforms. Board members include AppNexus, ExtremeReach, Google, GroupM, Hearst Digital Media, Integral Ad Science, Index Exchange, LinkedIn, MediaMath, Microsoft, Moat, Pandora, PubMatic, Quantcast, Telaria, The Trade Desk, and Yahoo! Japan. Established in 2014, the IAB Tech Lab is headquartered in New York City with an office in San Francisco and representation in Seattle and London.
+The IAB Technology Laboratory ("Tech Lab") is a non-profit research and development consortium that produces and provides standards, software, and services to drive growth of an effective and sustainable global digital media ecosystem. Comprised of digital publishers and ad technology firms, as well as marketers, agencies, and other companies with interests in the interactive marketing arena, IAB Tech Lab aims to enable brand and media growth via a transparent, safe, effective supply chain, simpler and more consistent measurement, and better advertising experiences for consumers, with a focus on mobile and "TV"/digital video channel enablement. The IAB Tech Lab portfolio includes the DigiTrust real-time standardized identity service designed to improve the digital experience for consumers, publishers, advertisers, and third-party platforms. Board members include AppNexus, ExtremeReach, Google, GroupM, Hearst Digital Media, Integral Ad Science, Index Exchange, LinkedIn, MediaMath, Microsoft, Moat, Pandora, PubMatic, Quantcast, Telaria, The Trade Desk, and Yahoo! Japan. Established in 2014, the IAB Tech Lab is headquartered in New York City with an office in San Francisco and representation in Seattle and London.
 
 Learn more about IAB Tech Lab here: [https://www.iabtechlab.com/](https://www.iabtechlab.com/)
 
@@ -116,7 +116,7 @@ Learn more about IAB Europe here: [https://www.iabeurope.eu/](https://www.iabeur
 
 ## What is supported by this API? <a name="supported-API"></a>
 
-This API can be used by on-page javascript tags to obtain consent and vendor list information from the Consent Manager Provider. This API draft takes the approach of specifying the minimum-necessary functionality that the CMP needs to provide DSP?s and SSP?s vendor consent info. There?s a large potential surface area of publisher-CMP functionality (including publisher UI control and configuration) that is best provided by CMP-specific, rather than standardized, API?s.
+This API can be used by on-page javascript tags to obtain consent and vendor list information from the Consent Manager Provider. This API draft takes the approach of specifying the minimum-necessary functionality that the CMP needs to provide DSP's and SSP's vendor consent info. There's a large potential surface area of publisher-CMP functionality (including publisher UI control and configuration) that is best provided by CMP-specific, rather than standardized, APIs.
 
 ## What API will need to be provided by the CMP? <a name="API-provided"></a>
 
@@ -147,21 +147,16 @@ This API has to support the following functionality:
   <tr>
     <td>getVendorConsents</td>
     <td>vendorIds: Uint16Array</td>
-    <td>Callback(
-VendorConsents object, success: boolean)</td>
-    <td>The vendorIds array contains the vendor ids (as identified in the Global Vendor List) for which consent is being requested. If vendorIds is null or empty, the operation will return consent status for all vendors in the vendor list.
-The callback function will be called with a VendorConsents object as the parameter. If vendorIds is provided and not empty, then VendorConsents.vendorConsents will only included IDs from vendorIds, The callback is called only after consent is obtained from the UI or existing cookies.
+    <td>Callback(VendorConsents object, success: boolean)</td>
+    <td>The vendorIds array contains the vendor ids (as identified in the Global Vendor List) for which consent is being requested. If vendorIds is null or empty, the operation will return consent status for all vendors in the vendor list. The callback function will be called with a VendorConsents object as the parameter. If vendorIds is provided and not empty, then VendorConsents.vendorConsents will only included IDs from vendorIds. The callback is called only after consent is obtained from the UI or existing cookies.
 
-The consent will be returned false ("No Consent") for any invalid vendorId. 
-The boolean success parameter passed to the callback indicates whether the call to getVendorConsents() was successful.</td>
+The consent will be returned false ("No Consent") for any invalid vendorId. The boolean success parameter passed to the callback indicates whether the call to getVendorConsents() was successful.</td>
   </tr>
   <tr>
     <td>getConsentData</td>
     <td>consentStringVersion: string</td>
     <td>Callback(VendorConsentData object, success: boolean)</td>
-    <td>If consentStringVersion is provided, then fetch that version if available (else returns null). If consentStringVersion is null, then the latest supported version of the consent string is returned.
-The callback is called only after consent is obtained from the UI or existing cookies.
-The boolean success parameter passed to the callback indicates whether the call to getConsentData() was successful.
+    <td>If consentStringVersion is provided, then fetch that version if available (else returns null). If consentStringVersion is null, then the latest supported version of the consent string is returned. The callback is called only after consent is obtained from the UI or existing cookies. The boolean success parameter passed to the callback indicates whether the call to getConsentData() was successful.
 </td>
   </tr>
   <tr>
@@ -179,13 +174,8 @@ The boolean success parameter passed to the callback indicates whether the call 
   <tr>
     <td>getPublisherConsents</td>
     <td>purposeIds: Uint16Array</td>
-    <td>Callback(
-PublisherConsents object, success: boolean)</td>
-    <td>The purposeIds lists the purpose ids the publisher is requesting consent for. If this array is null or empty, it will default to all configured purposes. PurposeId's 1-24 indicate standard purposes, while 25-88 indicate custom (publisher-configured) purposes.
-The callback function will be called with a PublisherConsents object as the parameter.
-The purpose ids would be set by the publisher using a CMP-defined initialization function.
-The callback is called only after consent is obtained from the UI or existing cookies.
-The boolean success parameter passed to the callback indicates whether the call to getPublisherConsents() was successful.
+    <td>Callback(PublisherConsents object, success: boolean)</td>
+    <td>The purposeIds lists the purpose ids the publisher is requesting consent for. If this array is null or empty, it will default to all configured purposes. PurposeId's 1-24 indicate standard purposes, while 25-88 indicate custom (publisher-configured) purposes. The callback function will be called with a PublisherConsents object as the parameter. The purpose ids would be set by the publisher using a CMP-defined initialization function. The callback is called only after consent is obtained from the UI or existing cookies. The boolean success parameter passed to the callback indicates whether the call to getPublisherConsents() was successful.
 </td>
   </tr>
   <tr>
@@ -193,8 +183,7 @@ The boolean success parameter passed to the callback indicates whether the call 
     <td>vendorListVersion (scalar)</td>
     <td>Callback(GlobalVendorList object, success:boolean)</td>
     <td>The callback function will be called with the GlobalVendorList parameter being the vendor list object of the requested version. 
-If the vendorListVersion is null, the vendor list for the VendorListVersion in the current consent string is returned. If no consent string value is currently set, the latest version of the vendor list is returned.
-If the vendorListVersion value is ?LATEST?, the latest version available is returned.
+If the vendorListVersion is null, the vendor list for the VendorListVersion in the current consent string is returned. If no consent string value is currently set, the latest version of the vendor list is returned. If the vendorListVersion value is "LATEST", the latest version available is returned.
 If the vendorListVersion is invalid, the callback function will be called with 'null' as the first argument and false as the success argument.
 The boolean success parameter passed to the callback indicates whether the call to getVendorList() was successful.
 </td>
@@ -213,7 +202,7 @@ This object contains the global purposes, and vendors, consented to by the user:
 
   metadata: [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) string (header data from the vendor consent format, as described below),
 
-    gdprApplies: *Boolean*,
+  gdprApplies: *Boolean*,
 
   hasGlobalScope: *Boolean,  // true if the vendor consent data is retrieved from the global cookie, false if a publisher-specific (or publisher-group-specific) cookie*
 
@@ -227,7 +216,7 @@ This object contains the global purposes, and vendors, consented to by the user:
 
   vendorConsents: { 
 
-    *vendorId* : *c**onsentBoolean*, 
+    *vendorId* : *consentBoolean*, 
 
     ?
 
@@ -236,7 +225,7 @@ This object contains the global purposes, and vendors, consented to by the user:
 }
 ```
 
-where *vendorId* and *purposeId* are the keys and *consentBoolean *are the values for the consent (false="No Consent?, true=?Consent?). The *gdprApplies *field will be true if the user is determined (by geo-IP lookup) to be in the EU, or the publisher has configured the CMP (via a CMP-specific method not specified by this spec) that they are a EU publisher and thus the CMP UI should be shown for everyone. The *metadata* will be the  [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) value of the following "header" information described in the cookie format:
+where *vendorId* and *purposeId* are the keys and *consentBoolean *are the values for the consent (false="No Consent", true="Consent"). The *gdprApplies *field will be true if the user is determined (by geo-IP lookup) to be in the EU, or the publisher has configured the CMP (via a CMP-specific method not specified by this spec) that they are a EU publisher and thus the CMP UI should be shown for everyone. The *metadata* will be the  [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) value of the following "header" information described in the cookie format:
 
 1. Cookie Version
 
@@ -259,13 +248,13 @@ where *vendorId* and *purposeId* are the keys and *consentBoolean *are the value
 This object contains the entire [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) string of the vendor consent data:
 
 ```
-	{
+{
 
-                consentData:  [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) encoded string,		
+	consentData:  [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) encoded string,		
 
-	    gdprApplies:  *Boolean*,
+	gdprApplies:  *Boolean*,
 
-	  hasGlobalScope: *Boolean // true if the vendor consent data is retrieved from the global cookie, false if from a publisher-specific (or publisher-group-specific) cookie*
+	hasGlobalScope: *Boolean // true if the vendor consent data is retrieved from the global cookie, false if from a publisher-specific (or publisher-group-specific) cookie*
 
 }
 ```
@@ -280,7 +269,7 @@ This object contains the publisher-specific (both global and custom) purposes co
 
   metadata: [base64url-encoded](https://tools.ietf.org/html/rfc4648#section-5) encoded string in the publisher consent format,
 
-    gdprApplies:  *Boolean*,
+  gdprApplies:  *Boolean*,
 
   hasGlobalScope: *Boolean,*
 
@@ -311,7 +300,7 @@ This object contains information about the loading status and configuration of t
 ```
 {
 
-    gdprAppliesGlobally:  *Boolean*, // true if publisher has configured CMP to apply GDPR to all (including non-EU) visitors
+  gdprAppliesGlobally:  *Boolean*, // true if publisher has configured CMP to apply GDPR to all (including non-EU) visitors
 
   cmpLoaded: *Boolean *// true if CMP main script is loaded, false if still running stub
 
@@ -349,13 +338,13 @@ Typically, code will not need to check if the CMP script is loaded. Code can sim
 
     6. Set the **__cmp** function to the CMP?s full API implementation.
 
-    7. Replace the stub?s postMessage handler with the full CMP handler.
+    7. Replace the stub's postMessage handler with the full CMP handler.
 
     8. Run any queued calls using the parameters stored by the stub, in the order received.
 
 ## Is there a sample CMP stub? <a name="CMP-stub-sample"></a>
 
-This code should be as close-to-top as possible in the header. The tag also includes the postMessage handler [as described below.](#heading=h.b8yti5hje2qu)  In the snippet provided by a CMP to the publisher, the CMP must replace the value of the gdprAppliesGlobally variable with the value as determined by the publisher in the CMP?s publisher configuration.  Additionally, it is recommended that the CMP provide a minified version of the snippet to publishers.
+This code should be as close-to-top as possible in the header. The tag also includes the postMessage handler [as described below.](#heading=h.b8yti5hje2qu) In the snippet provided by a CMP to the publisher, the CMP must replace the value of the gdprAppliesGlobally variable with the value as determined by the publisher in the CMP's publisher configuration.  Additionally, it is recommended that the CMP provide a minified version of the snippet to publishers.
 
 If immutable-version URL's are used for cmp.js, [a subresource integrity attribute](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) should be provided by the CMP and used.
 
@@ -367,18 +356,20 @@ If immutable-version URL's are used for cmp.js, [a subresource integrity attribu
 (function() {
 
   var gdprAppliesGlobally = false;
+  var win = window;
+  var doc = document;
 
   function addFrame() {
 
-    if (!window.frames['__cmpLocator']) {
+    if (!win.frames['__cmpLocator']) {
 
-      if (document.body) {
+      if (doc.body) {
 
-        var body = document.body,
+        var body = doc.body;
 
-            iframe = document.createElement('iframe');
+        var iframe = doc.createElement('iframe');
 
-        iframe.style = 'display:none';
+        iframe.style.cssText = 'display:none';
 
         iframe.name = '__cmpLocator';
 
@@ -408,17 +399,17 @@ If immutable-version URL's are used for cmp.js, [a subresource integrity attribu
 
     __cmp.a = __cmp.a || [];
 
-    if (!b.length) return __cmp.a;
+    if (!b.length) { 
 
-    else if (b[0] === 'ping') {
+      return __cmp.a;
+
+    } else if (b[0] === 'ping') {
 
       b[2]({"gdprAppliesGlobally": gdprAppliesGlobally,
 
         "cmpLoaded": false}, true);
 
-    }
-
-    else {
+    } else {
 
       __cmp.a.push([].slice.apply(b));
 
@@ -430,50 +421,57 @@ If immutable-version URL's are used for cmp.js, [a subresource integrity attribu
 
     var msgIsString = typeof event.data === "string";
 
-    var json = msgIsString ? JSON.parse(event.data) : event.data;
+    try {
 
-    if (json.__cmpCall) {
+      var json = msgIsString ? JSON.parse(event.data) : event.data;
 
-      var i = json.__cmpCall;
+      if (json.__cmpCall) {
 
-      window.__cmp(i.command, i.parameter, function(retValue, success) {
+        var i = json.__cmpCall;
 
-        var returnMsg = {"__cmpReturn": {
+        win.__cmp(i.command, i.parameter, function(retValue, success) {
 
-          "returnValue": retValue,
+          var returnMsg = {"__cmpReturn": {
 
-          "success": success,
+            "returnValue": retValue,
 
-        	"callId": i.callId
+            "success": success,
 
-        }};
+              "callId": i.callId
 
-        event.source.postMessage(msgIsString ?
+          }};
 
-          JSON.stringify(returnMsg) : returnMsg, '*');
+          event.source.postMessage(msgIsString ?
 
-      });
+            JSON.stringify(returnMsg) : returnMsg, '*');
 
-    }
+        });
 
-  }
+      }
+
+    } catch(ignore) { /* Ignore messages we don't recognize */ }
+
 
   if (typeof (__cmp) !== 'function') {
 
-    window.__cmp = stubCMP;
+    win.__cmp = stubCMP;
 
     __cmp.msgHandler = cmpMsgHandler;
 
-    if (window.addEventListener)
-
-      window.addEventListener('message', cmpMsgHandler, false);
-
-    else window.attachEvent('onmessage', cmpMsgHandler);
+      win.addEventListener('message', cmpMsgHandler, false);
 
   }
 
-})();
+}})();
 
+</script>
+```
+
+A minified version of the above script tag is provided below.
+
+```
+<script type="text/javascript">
+(function(){var e=false;var c=window;var t=document;function r(){if(!c.frames["__cmpLocator"]){if(t.body){var a=t.body;var e=t.createElement("iframe");e.style.cssText="display:none";e.name="__cmpLocator";a.appendChild(e)}else{setTimeout(r,5)}}}r();function p(){var a=arguments;__cmp.a=__cmp.a||[];if(!a.length){return __cmp.a}else if(a[0]==="ping"){a[2]({gdprAppliesGlobally:e,cmpLoaded:false},true)}else{__cmp.a.push([].slice.apply(a))}}function l(t){var r=typeof t.data==="string";try{var a=r?JSON.parse(t.data):t.data;if(a.__cmpCall){var n=a.__cmpCall;c.__cmp(n.command,n.parameter,function(a,e){var c={__cmpReturn:{returnValue:a,success:e,callId:n.callId}};t.source.postMessage(r?JSON.stringify(c):c,"*")})}}catch(a){}if(typeof __cmp!=="function"){c.__cmp=p;__cmp.msgHandler=l;c.addEventListener("message",l,false)}}})();
 </script>
 ```
 
@@ -516,26 +514,28 @@ CMP tags will install an event handler to call __cmp() for postMessage events, r
 The sent message should have the below form where "*command*" and *parameter* are the same as the first two parameters to the __cmp() function, and a unique callId value:
 
 ```
-{__cmpCall: 
-
-  {command: "*command*", 
-
-   parameter: *parameter, *
-
-   callId: *uniqueId*}}* *
+{
+  __cmpCall: 
+  {
+    command: "*command*", 
+    parameter: *parameter*, 
+    callId: *uniqueId*
+  }
+}
 ```
    
 
 and the returned message (event.data) will have the below form where returnValue and success are the two parameters passed to the callback function, and the same value of callId that was sent:
 
 ```
-{__cmpReturn: 
-
-  {returnValue: *returnValue*, 
-
-   success: *boolean*, 
-
-   callId: *uniqueId*}} 
+{
+  __cmpReturn: 
+  {
+     returnValue: *returnValue*, 
+     success: *boolean*, 
+     callId: *uniqueId*
+   }
+} 
  ```
 
 Below is a wrapper function that emulates the in-frame __cmp() call. It locates the ancestor frame running the CMP, performs the postMessage and listens for the return message and passes its values to the callback:

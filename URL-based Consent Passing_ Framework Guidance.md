@@ -4,13 +4,20 @@
 
 **IAB Tech Lab | IAB Europe**
 
+## Specification to be updated with additional macros support
+*Note, April 25 2019* 
+
+As of the publication of Transparency and Consent Framework April 25, 2019, this specification is marked as to-be-updated. Please review the Transparency and Consent Frameworks for public comment to learn how the new specification support the required use cases.
+
+
+
 ## GDPR Consent Passing for URL-based services 
 
 This document contains implementation guidance reviewed by the IAB Tech Lab GDPR Commit Group for use within the IAB Europe Transparency and Consent Framework.
 
 ## OVERVIEW 
 
-Consent signals (for GDPR) can currently be obtained through the CMP Consent JS javascript API (for services running as a javascript tag), or through OpenRTB extension fields for exchanges and bidders. However, consent signals also need to be provided to pixels, pixel redirects used in beaconing and user ID matching processes, and other URL-based services, because they may collect personal information but, being called by either direct HTTP GET requests from properties of another party or redirects therefrom, the receiving service does not have an opportunity to run javascript in the browser in order to access the CMP Consent javascript API itself. These URL-based service fetches are initiated by publisher's or other vendor's javascript code which has access to the consent signal, or as the impression of a winning bidder which also has access to the consent signal from OpenRTB.
+Consent signals (for GDPR) can currently be obtained through the CMP Consent JS javascript API (for services running as a javascript tag), or through OpenRTB extension fields for exchanges and bidders. However, consent signals also need to be provided to pixels, pixel redirects used in beaconing and user ID matching processes, and other URL-based services, because they may collect personal information, but being called by either direct HTTP GET requests from properties of another party or redirects therefrom, the receiving service does not have an opportunity to run javascript in the browser in order to access the CMP Consent javascript API itself. These URL-based service fetches are initiated by publisher's or other vendor's javascript code which has access to the consent signal, or as the impression of a winning bidder which also has access to the consent signal from OpenRTB.
 
 ## GOALS
 
