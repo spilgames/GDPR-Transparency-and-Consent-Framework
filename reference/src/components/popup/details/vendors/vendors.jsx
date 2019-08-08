@@ -84,9 +84,13 @@ export default class Vendors extends Component {
 				<div class={style.vendorContent}>
 					<table class={style.vendorList}>
 						<tbody>
-						{vendors.map(({ id, name, required }, index) => (
+						{vendors.map(({ id, name, required, policyUrl }, index) => (
 							<tr key={id} class={index % 2 === 1 ? style.even : ''}>
-								<td><div class={style.vendorName}>{name}</div></td>
+								<td>
+									<div class={style.vendorName}>
+										<a href={policyUrl} target='_blank' class={style.vendorLink}>{name}</a>
+									</div>
+								</td>
 								{editingConsents && !required &&
 								<td>
 									<Switch
