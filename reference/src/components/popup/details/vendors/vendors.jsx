@@ -25,10 +25,12 @@ export default class Vendors extends Component {
 	};
 
 	handleAcceptAll = () => {
+		this.handleMoreChoices();
 		this.props.selectAllVendors(true);
 	};
 
 	handleRejectAll = () => {
+		this.handleMoreChoices();
 		this.props.selectAllVendors(false);
 	};
 
@@ -61,13 +63,15 @@ export default class Vendors extends Component {
 					<LocalLabel localizeKey='description'>
 						Help us provide you with a better online experience! Our partners set cookies and collect information from your browser across the web to provide you with website content, deliver relevant advertising and understand web audiences.
 					</LocalLabel>
+					<div>
+						<Button class={style.button} onClick={this.handleAcceptAll} localizeKey="acceptAll">Accept all</Button>
+						<Button class={style.button} onClick={this.handleRejectAll} localizeKey="acceptNone">Reject all</Button>
 						{!editingConsents &&
-						<div>
-							<a onClick={this.handleMoreChoices}>
-								<LocalLabel localizeKey='moreChoices'>Make More Choices</LocalLabel>
-							</a>
-						</div>
+						<a onClick={this.handleMoreChoices}>
+							<LocalLabel localizeKey='moreChoices'>Make More Choices</LocalLabel>
+						</a>
 						}
+					</div>
 				</div>
 				<div class={style.vendorHeader}>
 					<table class={style.vendorList}>

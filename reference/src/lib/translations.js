@@ -59,7 +59,9 @@ export default {
 		},
 		vendors: {
 			title: 'Information We Collect About You',
-			description: 'We and our partners use your data for the following purposes:<ul><li>To help us understand how you use our website and to research and improve features and services.</li> <li>To ensure that we can remember the website preferences you select and provide you with customized content.</li> <li>To show relevant advertisements and to allow you to share content via Social Media.</li> <li>Other functionalities that are necessary for providing you with our gaming services such as payments.</li> </ul>'
+			description: 'We and our partners use your data for the following purposes:<ul><li>To help us understand how you use our website and to research and improve features and services.</li> <li>To ensure that we can remember the website preferences you select and provide you with customized content.</li> <li>To show relevant advertisements and to allow you to share content via Social Media.</li> <li>Other functionalities that are necessary for providing you with our gaming services such as payments.</li> </ul>',
+			acceptAll: 'Accept all',
+			acceptNone: 'Reject all'
 		}
 	},
 	nl: {
