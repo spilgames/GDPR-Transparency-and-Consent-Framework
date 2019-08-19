@@ -57,6 +57,20 @@ export default {
 				description: `By changing this setting, you will or will not be able to play 3rd party games on our website. 3rd party games often include tracking cookies from advertisers or social media features. You may also be required to register in the games in order to play them. Please note that we do not control these games or what happens with the data that is shared.By changing this setting, you will or will not be able to play 3rd party games on our website. 3rd party games often include tracking cookies from advertisers or social media features. You may also be required to register in the games in order to play them. Please note that we do not control these games or what happens with the data that is shared.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Information We Collect About You',
 			description: 'We and our partners use your data for the following purposes:<ul><li>To help us understand how you use our website and to research and improve features and services.</li> <li>To ensure that we can remember the website preferences you select and provide you with customized content.</li> <li>To show relevant advertisements and to allow you to share content via Social Media.</li> <li>Other functionalities that are necessary for providing you with our gaming services such as payments.</li> </ul>',
