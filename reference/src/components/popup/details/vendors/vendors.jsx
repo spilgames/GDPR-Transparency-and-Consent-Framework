@@ -64,8 +64,12 @@ export default class Vendors extends Component {
 						Help us provide you with a better online experience! Our partners set cookies and collect information from your browser across the web to provide you with website content, deliver relevant advertising and understand web audiences.
 					</LocalLabel>
 					<div>
-						<Button class={style.button} onClick={this.handleAcceptAll} localizeKey="acceptAll">Accept all</Button>
-						<Button class={style.button} onClick={this.handleRejectAll} localizeKey="acceptNone">Reject all</Button>
+						<Button class={style.button} onClick={this.handleAcceptAll}>
+							<LocalLabel localizeKey='acceptAll'>Accept All</LocalLabel>
+						</Button>
+						<Button class={style.button} onClick={this.handleRejectAll}>
+							<LocalLabel localizeKey="acceptNone">Reject All</LocalLabel>
+						</Button>
 						{!editingConsents &&
 						<a onClick={this.handleMoreChoices}>
 							<LocalLabel localizeKey='moreChoices'>Make More Choices</LocalLabel>
