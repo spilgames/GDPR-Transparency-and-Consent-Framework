@@ -88,7 +88,7 @@ export default class Vendors extends Component {
 				<div class={style.vendorContent}>
 					<table class={style.vendorList}>
 						<tbody>
-						{vendors.map(({ id, name, required, policyUrl, purposeIds, legIntPurposeIds }, index) => (
+						{vendors.map(({ id, name, required, policyUrl, purposeIds, legIntPurposeIds, featureIds }, index) => (
 							<tr key={id} class={index % 2 === 1 ? style.even : ''}>
 								<td>
 									<div class={style.vendorName}>
@@ -113,6 +113,18 @@ export default class Vendors extends Component {
 												{legIntPurposeIds.map((purposeId, index) => (
 													<li>
 														<Label prefix='purposes' localizeKey={'purpose' + purposeId + '.title'}></Label>
+													</li>
+												))}
+											</ul>
+										</section>
+									}
+									{featureIds.length > 0 &&
+										<section class={style.vendorPurposes}>
+											<h4><LocalLabel localizeKey='features'>Features</LocalLabel>:</h4>
+											<ul>
+												{featureIds.map((featureId, index) => (
+													<li>
+														<Label prefix='features' localizeKey={'feature' + featureId + '.name'}></Label>
 													</li>
 												))}
 											</ul>
