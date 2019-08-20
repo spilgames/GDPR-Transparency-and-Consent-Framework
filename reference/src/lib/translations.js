@@ -134,7 +134,9 @@ export default {
 		},
 		vendors: {
 			title: 'Informatie die we verzamelen',
-			description: 'Wij en onze partners gebruiken je gegevens voor de volgende doeleinden: <ul> <li>Om meer inzicht te krijgen in hoe je onze website gebruikt en om features en diensten te analyseren en te verbeteren.</li> <li>Om ervoor te zorgen dat we jouw geselecteerde websitevoorkeuren kunnen onthouden en afgestemde content kunnen bieden.</li> <li>Om relevante advertenties te tonen en om je inhoud te kunnen laten delen via sociale media.</li> <li>Andere noodzakelijke functionaliteiten voor het aanbieden van onze gamediensten, zoals betalingen.</li> </ul>'
+			description: 'Wij en onze partners gebruiken je gegevens voor de volgende doeleinden: <ul> <li>Om meer inzicht te krijgen in hoe je onze website gebruikt en om features en diensten te analyseren en te verbeteren.</li> <li>Om ervoor te zorgen dat we jouw geselecteerde websitevoorkeuren kunnen onthouden en afgestemde content kunnen bieden.</li> <li>Om relevante advertenties te tonen en om je inhoud te kunnen laten delen via sociale media.</li> <li>Andere noodzakelijke functionaliteiten voor het aanbieden van onze gamediensten, zoals betalingen.</li> </ul>',
+			acceptAll: 'ALLES ACCEPTEREN',
+			acceptNone: 'ALLES AFWIJZEN'
 		}
 	},
 	fr: {
@@ -191,7 +193,9 @@ export default {
 		},
 		vendors: {
 			title: 'Informations collectées vous concernant',
-			description: 'Wij en onze partners gebruiken je gegevens voor de volgende doeleinden: <ul> <li>Om meer inzicht te krijgen in hoe je onze website gebruikt en om features en diensten te analyseren en te verbeteren. </li> <li>Om ervoor te zorgen dat we jouw geselecteerde websitevoorkeuren kunnen onthouden en afgestemde content kunnen bieden.</li> <li>Om relevante advertenties te tonen en om je inhoud te kunnen laten delen via sociale media.</li> <li>Andere noodzakelijke functionaliteiten voor het aanbieden van onze gamediensten, zoals betalingen.</li> </ul>'
+			description: 'Wij en onze partners gebruiken je gegevens voor de volgende doeleinden: <ul> <li>Om meer inzicht te krijgen in hoe je onze website gebruikt en om features en diensten te analyseren en te verbeteren. </li> <li>Om ervoor te zorgen dat we jouw geselecteerde websitevoorkeuren kunnen onthouden en afgestemde content kunnen bieden.</li> <li>Om relevante advertenties te tonen en om je inhoud te kunnen laten delen via sociale media.</li> <li>Andere noodzakelijke functionaliteiten voor het aanbieden van onze gamediensten, zoals betalingen.</li> </ul>',
+			acceptAll: 'TOUT ACCEPTER',
+			acceptNone: 'TOUT REFUSER'
 		}
 	},
 	de: {
@@ -248,7 +252,9 @@ export default {
 		},
 		vendors: {
 			title: 'Informationen, die wir über Sie erfassen',
-			description: 'Wir und unsere Partner nutzen Ihre Daten zu folgenden Zwecken: <ul> <li>Um Erkenntnisse zur Nutzung unserer Website zu erhalten sowie Funktionen und Serviceangebote zu untersuchen und zu verbessern.</li> <li>Um Ihre Website-Einstellungen zu speichern und Ihnen personalisierte Inhalte anbieten zu können.</li> <li>Um Ihnen relevante Werbung anzeigen und Ihnen das Teilen von Inhalten über soziale Medien ermöglichen können.</li> <li>Um Ihnen weitere notwendige Funktionen anbieten und Ihnen so unser Spieleangebot bereitstellen zu können (z. B. Zahlung).</li> </ul>'
+			description: 'Wir und unsere Partner nutzen Ihre Daten zu folgenden Zwecken: <ul> <li>Um Erkenntnisse zur Nutzung unserer Website zu erhalten sowie Funktionen und Serviceangebote zu untersuchen und zu verbessern.</li> <li>Um Ihre Website-Einstellungen zu speichern und Ihnen personalisierte Inhalte anbieten zu können.</li> <li>Um Ihnen relevante Werbung anzeigen und Ihnen das Teilen von Inhalten über soziale Medien ermöglichen können.</li> <li>Um Ihnen weitere notwendige Funktionen anbieten und Ihnen so unser Spieleangebot bereitstellen zu können (z. B. Zahlung).</li> </ul>',
+			acceptAll: 'ALLE ANNEHMEN',
+			acceptNone: 'ALLE ABLEHNEN'
 		}
 	},
 	es: {
@@ -305,7 +311,9 @@ export default {
 		},
 		vendors: {
 			title: 'Información que recopilamos sobre usted',
-			description: 'Nuestros socios y nosotros empleamos sus datos para los siguientes fines: <ul> <li>Para adquirir una mejor comprensión del uso que hace de nuestro sitio web, así como para investigar y mejorar nuestros servicios y funciones.</li> <li>Para garantizar que podemos recordar las preferencias del sitio web que haya elegido y ofrecerle contenido personalizado.</li> <li>Para mostrar publicidad relevante para usted y permitirle que comparta contenido en redes sociales.</li> <li>Otras funcionalidades necesarias para proporcionarle servicios de juegos, como los pagos.</li> </ul>'
+			description: 'Nuestros socios y nosotros empleamos sus datos para los siguientes fines: <ul> <li>Para adquirir una mejor comprensión del uso que hace de nuestro sitio web, así como para investigar y mejorar nuestros servicios y funciones.</li> <li>Para garantizar que podemos recordar las preferencias del sitio web que haya elegido y ofrecerle contenido personalizado.</li> <li>Para mostrar publicidad relevante para usted y permitirle que comparta contenido en redes sociales.</li> <li>Otras funcionalidades necesarias para proporcionarle servicios de juegos, como los pagos.</li> </ul>',
+			acceptAll: 'ACEPTAR TODO',
+			acceptNone: 'DENEGAR TODO'
 		}
 	},
 	pt: {
@@ -362,7 +370,9 @@ export default {
 		},
 		vendors: {
 			title: 'Informações que coletamos sobre você',
-			description: 'Nós e nossos parceiros usamos seus dados para os seguinte propósitos: <ul> <li>Para nos ajudar a entender melhor como você usa o nosso site e para pesquisar e melhorar recursos e serviços.</li> <li>Para salvarmos as preferências do site selecionadas por você e para oferecermos conteúdos personalizados.</li> <li>Para mostrarmos anúncios relevantes e para permitir que você compartilhe conteúdo via redes sociais.</li> <li>Outras funcionalidades que são necessárias para o fornecimento de serviços de jogo, como pagamentos.</li> </ul>'
+			description: 'Nós e nossos parceiros usamos seus dados para os seguinte propósitos: <ul> <li>Para nos ajudar a entender melhor como você usa o nosso site e para pesquisar e melhorar recursos e serviços.</li> <li>Para salvarmos as preferências do site selecionadas por você e para oferecermos conteúdos personalizados.</li> <li>Para mostrarmos anúncios relevantes e para permitir que você compartilhe conteúdo via redes sociais.</li> <li>Outras funcionalidades que são necessárias para o fornecimento de serviços de jogo, como pagamentos.</li> </ul>',
+			acceptAll: 'ACEITAR TUDO',
+			acceptNone: 'RECUSAR TUDO'
 		}
 	},
 	it: {
@@ -419,7 +429,9 @@ export default {
 		},
 		vendors: {
 			title: 'Informazioni raccolte su di te',
-			description: 'Utilizziamo i tuoi dati insieme ai nostri partner per: <ul> <li>capire come usi il nostro sito web e per analizzare e migliorare funzionalità e servizi;</li> <li>assicurarci di poter ricordare le preferenze che selezioni sul nostro sito web e offrire contenuti personalizzati;</li> <li>mostrare annunci pubblicitari coerenti con gli interessi che hai dimostrato e consentirti di condividere contenuti attraverso i social media;</li> <li>offrire altre funzionalità necessarie per i nostri servizi di gioco, come i pagamenti.</li> </ul>'
+			description: 'Utilizziamo i tuoi dati insieme ai nostri partner per: <ul> <li>capire come usi il nostro sito web e per analizzare e migliorare funzionalità e servizi;</li> <li>assicurarci di poter ricordare le preferenze che selezioni sul nostro sito web e offrire contenuti personalizzati;</li> <li>mostrare annunci pubblicitari coerenti con gli interessi che hai dimostrato e consentirti di condividere contenuti attraverso i social media;</li> <li>offrire altre funzionalità necessarie per i nostri servizi di gioco, come i pagamenti.</li> </ul>',
+			acceptAll: 'ACCETTA TUTTO',
+			acceptNone: 'RIFIUTA TUTTO'
 		}
 	},
 	sv: {
@@ -476,7 +488,9 @@ export default {
 		},
 		vendors: {
 			title: 'Verktyget för cookiemedgivande',
-			description: 'Vi och våra partners använder dina uppgifter för följande ändamål: <ul> <li>För att hjälpa oss att förstå hur du använder vår webbplats och för att undersöka och förbättra funktioner och tjänster.</li> <li>För att säkerställa att vi kan komma ihåg de webbplatsinställningarna som du väljer och förse dig med anpassat innehåll.</li> <li>För att visa relevanta annonser och låta dig dela innehåll via sociala medier.</li> <li>Andra funktioner som är nödvändiga för att du ska få ta del av våra speltjänster, till exempel betalningar.</li> </ul>'
+			description: 'Vi och våra partners använder dina uppgifter för följande ändamål: <ul> <li>För att hjälpa oss att förstå hur du använder vår webbplats och för att undersöka och förbättra funktioner och tjänster.</li> <li>För att säkerställa att vi kan komma ihåg de webbplatsinställningarna som du väljer och förse dig med anpassat innehåll.</li> <li>För att visa relevanta annonser och låta dig dela innehåll via sociala medier.</li> <li>Andra funktioner som är nödvändiga för att du ska få ta del av våra speltjänster, till exempel betalningar.</li> </ul>',
+			acceptAll: 'GODKÄNN ALLA',
+			acceptNone: 'AVBÖJ ALLA'
 		}
 	},
 	pl: {
@@ -533,7 +547,9 @@ export default {
 		},
 		vendors: {
 			title: 'Dane, jakie gromadzimy na Państwa temat',
-			description: 'Domena oraz jej partnerzy korzystają z danych użytkowników do następujących celów: <ul> <li>lepszego zrozumienia zasad korzystania ze strony internetowej przez użytkowników oraz badania i doskonalenia jej funkcji oraz usług;</li> <li>zapewnienia zapisywania preferencji strony internetowej wybranych przez użytkowników oraz zaoferowania im spersonalizowanej treści;</li> <li>wyświetlania reklam dopasowanych do zainteresowań użytkowników oraz umożliwienia im udostępniania treści za pośrednictwem mediów społecznościowych;</li> <li>pozostałych funkcji niezbędnych do zaoferowania użytkownikom usług związanych z grami, np. płatności.</li> </ul>'
+			description: 'Domena oraz jej partnerzy korzystają z danych użytkowników do następujących celów: <ul> <li>lepszego zrozumienia zasad korzystania ze strony internetowej przez użytkowników oraz badania i doskonalenia jej funkcji oraz usług;</li> <li>zapewnienia zapisywania preferencji strony internetowej wybranych przez użytkowników oraz zaoferowania im spersonalizowanej treści;</li> <li>wyświetlania reklam dopasowanych do zainteresowań użytkowników oraz umożliwienia im udostępniania treści za pośrednictwem mediów społecznościowych;</li> <li>pozostałych funkcji niezbędnych do zaoferowania użytkownikom usług związanych z grami, np. płatności.</li> </ul>',
+			acceptAll: 'AKCEPTUJ WSZYSTKO',
+			acceptNone: 'ODRZUĆ WSZYSTKO'
 		}
 	},
 	ru: {
@@ -590,7 +606,9 @@ export default {
 		},
 		vendors: {
 			title: 'Какую информацию мы собираем о вас',
-			description: 'Мы вместе с нашими партнерами используем ваши данные для следующих целей: <ul> <li>Чтобы помочь нам понять, как вы используете наш вебсайт, а также для изучения и улучшения наших функций и сервисов.</li> <li>Чтобы быть уверенными в том, что мы можем запоминать выбираемые вами предпочтения на вебсайте и предоставлять вам индивидуальный контент.</li> <li>Чтобы демонстрировать актуальную рекламу и предоставлять вам возможность делиться контентом в социальных сетях.</li> <li>Прочие функции, необходимые для предоставления вам наших игровых услуг, например платежей.</li> </ul>'
+			description: 'Мы вместе с нашими партнерами используем ваши данные для следующих целей: <ul> <li>Чтобы помочь нам понять, как вы используете наш вебсайт, а также для изучения и улучшения наших функций и сервисов.</li> <li>Чтобы быть уверенными в том, что мы можем запоминать выбираемые вами предпочтения на вебсайте и предоставлять вам индивидуальный контент.</li> <li>Чтобы демонстрировать актуальную рекламу и предоставлять вам возможность делиться контентом в социальных сетях.</li> <li>Прочие функции, необходимые для предоставления вам наших игровых услуг, например платежей.</li> </ul>',
+			acceptAll: 'ПРИНЯТЬ ВСЕ',
+			acceptNone: 'ОТКАЗАТЬСЯ'
 		}
 	},
 	id: {
@@ -647,7 +665,9 @@ export default {
 		},
 		vendors: {
 			title: 'Informasi yang Kami Kumpulkan Tentang Anda',
-			description: 'Kami dan mitra kami menggunakan data Anda untuk tujuan berikut: <ul> <li>Untuk membantu kami memahami cara Anda menggunakan situs web kami dan untuk meneliti dan menyempurnakan fitur-fitur dan layanan.</li> <li>Untuk memastikan bahwa kami dapat mengingat preferensi situs web yang Anda pilih dan menyediakan konten yang disesuaikan untuk Anda.</li> <li>Untuk menampilkan iklan yang relevan dan untuk memungkinkan Anda membagikan konten melalui media sosial.</li> <li>Fungsionalitas lain yang dibutuhkan untuk menyediakan layanan game kami, seperti pembayaran.</li> </ul>'
+			description: 'Kami dan mitra kami menggunakan data Anda untuk tujuan berikut: <ul> <li>Untuk membantu kami memahami cara Anda menggunakan situs web kami dan untuk meneliti dan menyempurnakan fitur-fitur dan layanan.</li> <li>Untuk memastikan bahwa kami dapat mengingat preferensi situs web yang Anda pilih dan menyediakan konten yang disesuaikan untuk Anda.</li> <li>Untuk menampilkan iklan yang relevan dan untuk memungkinkan Anda membagikan konten melalui media sosial.</li> <li>Fungsionalitas lain yang dibutuhkan untuk menyediakan layanan game kami, seperti pembayaran.</li> </ul>',
+			acceptAll: 'SETUJU SEMUA',
+			acceptNone: 'TOLAK SEMUA'
 		}
 	},
 	tr: {
@@ -704,7 +724,9 @@ export default {
 		},
 		vendors: {
 			title: 'Çerez Onay Aracı',
-			description: 'İş ortaklarımızla birlikte verilerinizi aşağıdaki amaçlar doğrultusunda kullanırız: <ul> <li>Web sitemizi nasıl kullandığınızı anlamada ve özelliklerimiz ile hizmetlerimizi araştırma ve iyileştirmede bize yardımcı olması için.</li> <li>Seçtiğiniz web sitesi tercihlerini hatırlayabilmemiz ve özelleştirilmiş içerikler sunabilmemiz için.</li> <li>Alakalı reklamlar gösterebilmek ve sosyal medya aracılığıyla içerik paylaşmanızı sağlayabilmek için.</li> <li>Ödemeler gibi oyun hizmetlerini sağlayabilmemiz için gerekli diğer işlevsellikler.</li> </ul>'
+			description: 'İş ortaklarımızla birlikte verilerinizi aşağıdaki amaçlar doğrultusunda kullanırız: <ul> <li>Web sitemizi nasıl kullandığınızı anlamada ve özelliklerimiz ile hizmetlerimizi araştırma ve iyileştirmede bize yardımcı olması için.</li> <li>Seçtiğiniz web sitesi tercihlerini hatırlayabilmemiz ve özelleştirilmiş içerikler sunabilmemiz için.</li> <li>Alakalı reklamlar gösterebilmek ve sosyal medya aracılığıyla içerik paylaşmanızı sağlayabilmek için.</li> <li>Ödemeler gibi oyun hizmetlerini sağlayabilmemiz için gerekli diğer işlevsellikler.</li> </ul>',
+			acceptAll: 'HEPSİ KABUL',
+			acceptNone: 'HEPSİ RET'
 		}
 	}
 };
