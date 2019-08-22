@@ -132,6 +132,20 @@ export default {
 				description: `Door deze instelling te wijzigen zul je wel of geen games van derden op onze website kunnen spelen. Games van derden bevatten vaak tracking cookies van adverteerders of social media features. Voor sommige games moet je je registreren om ze te kunnen spelen. Let op: wij beheren deze games en het gebruik van de gedeelde gegevens niet.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Informatie die we verzamelen',
 			description: 'Wij en onze partners gebruiken je gegevens voor de volgende doeleinden: <ul> <li>Om meer inzicht te krijgen in hoe je onze website gebruikt en om features en diensten te analyseren en te verbeteren.</li> <li>Om ervoor te zorgen dat we jouw geselecteerde websitevoorkeuren kunnen onthouden en afgestemde content kunnen bieden.</li> <li>Om relevante advertenties te tonen en om je inhoud te kunnen laten delen via sociale media.</li> <li>Andere noodzakelijke functionaliteiten voor het aanbieden van onze gamediensten, zoals betalingen.</li> </ul>',
@@ -189,6 +203,20 @@ export default {
 				title: 'Jeux tiers',
 				menu: 'Jeux tiers',
 				description: `En changeant ce paramètre, vous ne pourrez plus jouer aux jeux tiers de notre site Internet. Les jeux tiers comprennent souvent des cookies allant des publicités aux fonctionnalités de réseaux sociaux. Il est possible que l'on vous demande de vous inscrire aux jeux pour pouvoir y jouer. Veuillez noter que nous ne contrôlons pas ces jeux ni l'utilisation des données partagées.`
+			}
+		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
 			}
 		},
 		vendors: {
@@ -250,6 +278,20 @@ export default {
 				description: `Diese Einstellung bestimmt, ob du Spiele von Dritten auf unserer Website spielen kannst oder nicht. Spiele von Dritten enthalten oft Tracking-Cookies von Werbetreibenden oder Social-Media-Funktionen. Es kann auch sein, dass du dich in den Spielen registrieren musst, um sie spielen zu können. Beachte bitte: Wir haben keinen Einfluss auf diese Spiele oder darauf, was mit den übermittelten Daten geschieht.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Informationen, die wir über Sie erfassen',
 			description: 'Wir und unsere Partner nutzen Ihre Daten zu folgenden Zwecken: <ul> <li>Um Erkenntnisse zur Nutzung unserer Website zu erhalten sowie Funktionen und Serviceangebote zu untersuchen und zu verbessern.</li> <li>Um Ihre Website-Einstellungen zu speichern und Ihnen personalisierte Inhalte anbieten zu können.</li> <li>Um Ihnen relevante Werbung anzeigen und Ihnen das Teilen von Inhalten über soziale Medien ermöglichen können.</li> <li>Um Ihnen weitere notwendige Funktionen anbieten und Ihnen so unser Spieleangebot bereitstellen zu können (z. B. Zahlung).</li> </ul>',
@@ -307,6 +349,20 @@ export default {
 				title: 'Juegos de terceros',
 				menu: 'Juegos de terceros',
 				description: `Esta opción de configuración permite o impide jugar a juegos de terceros en nuestro sitio web. Los juegos de terceros suelen incluir cookies de seguimiento de anunciantes o redes sociales. Es posible que también deba registrarse en los juegos para poder jugar. Tenga en cuenta que no ejercemos ningún control sobre dichos juegos ni sobre cómo se tratan los datos compartidos.`
+			}
+		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
 			}
 		},
 		vendors: {
@@ -368,6 +424,20 @@ export default {
 				description: `Ao modificar essa configuração, você poderá ou não acessar jogos de terceiros no nosso site. Jogos de terceiros geralmente possuem cookies de monitoramento de anunciantes e funções de redes sociais. Também pode ser necessário que você faça um cadastro nos jogos para jogá-los. Note que nós não controlamos esses jogos nem o que acontece com os dados compartilhados.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Informações que coletamos sobre você',
 			description: 'Nós e nossos parceiros usamos seus dados para os seguinte propósitos: <ul> <li>Para nos ajudar a entender melhor como você usa o nosso site e para pesquisar e melhorar recursos e serviços.</li> <li>Para salvarmos as preferências do site selecionadas por você e para oferecermos conteúdos personalizados.</li> <li>Para mostrarmos anúncios relevantes e para permitir que você compartilhe conteúdo via redes sociais.</li> <li>Outras funcionalidades que são necessárias para o fornecimento de serviços de jogo, como pagamentos.</li> </ul>',
@@ -425,6 +495,20 @@ export default {
 				title: 'Giochi di terze parti',
 				menu: 'Giochi di terze parti',
 				description: `Modificando questa impostazione, è possibile o meno accedere a giochi di terze parti sul nostro sito. I giochi di terze parti comprendono cookie di tracciamento di inserzionisti o funzionalità di social network. Per accedere a tali giochi, potrà essere richiesta la registrazione. Ricordiamo che non controlliamo questi giochi, né l'uso che viene fatto dei dati condivisi.`
+			}
+		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
 			}
 		},
 		vendors: {
@@ -486,6 +570,20 @@ export default {
 				description: `Genom att ändra denna inställning väljer du om du vill kunna spela spel från tredje part på vår webbplats eller inte. Tredjepartsspel innehåller ofta cookie-filer från annonsörer eller sociala medier. Du kanske även ombeds att registrera dig i spelen för att kunna spela dem. Observera att vi inte kontrollerar dessa spel eller vad som händer med de data som delas.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Verktyget för cookiemedgivande',
 			description: 'Vi och våra partners använder dina uppgifter för följande ändamål: <ul> <li>För att hjälpa oss att förstå hur du använder vår webbplats och för att undersöka och förbättra funktioner och tjänster.</li> <li>För att säkerställa att vi kan komma ihåg de webbplatsinställningarna som du väljer och förse dig med anpassat innehåll.</li> <li>För att visa relevanta annonser och låta dig dela innehåll via sociala medier.</li> <li>Andra funktioner som är nödvändiga för att du ska få ta del av våra speltjänster, till exempel betalningar.</li> </ul>',
@@ -543,6 +641,20 @@ export default {
 				title: 'Gry innych firm',
 				menu: 'Gry innych firm',
 				description: `Zmieniając to ustawienie, będzie można lub nie korzystać na naszej stronie internetowej z gier innych firm. Gry innych firm często zawierają śledzące pliki cookie od reklamodawców lub funkcje mediów społecznościowych. Może być również konieczne zarejestrowanie się w grach, aby z nich korzystać. Należy pamiętać, że nie kontrolujemy tych gier ani udostępnianych danych.`
+			}
+		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
 			}
 		},
 		vendors: {
@@ -604,6 +716,20 @@ export default {
 				description: `Изменение этой настройки влияет на возможность играть в сторонние игры на нашем сайте. В сторонних играх часто имеются отслеживающие файлы cookie от рекламодателей или функции, использующие социальные сети. Чтобы играть в такие игры, от вас также может потребоваться зарегистрироваться в них. Обратите внимание, что мы не контролируем эти игры и использование передаваемой в них информации.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Какую информацию мы собираем о вас',
 			description: 'Мы вместе с нашими партнерами используем ваши данные для следующих целей: <ul> <li>Чтобы помочь нам понять, как вы используете наш вебсайт, а также для изучения и улучшения наших функций и сервисов.</li> <li>Чтобы быть уверенными в том, что мы можем запоминать выбираемые вами предпочтения на вебсайте и предоставлять вам индивидуальный контент.</li> <li>Чтобы демонстрировать актуальную рекламу и предоставлять вам возможность делиться контентом в социальных сетях.</li> <li>Прочие функции, необходимые для предоставления вам наших игровых услуг, например платежей.</li> </ul>',
@@ -663,6 +789,20 @@ export default {
 				description: `Dengan mengubah pengaturan ini, Anda akan atau tidak akan dapat memainkan game pihak ke-3 di situs web kami. Game pihak ke-3 sering menyertakan cookie pelacakan dari pengiklan atau fitur media sosial. Anda juga dapat diminta untuk mendaftar di game untuk memainkannya. Perhatikan bahwa kami tidak mengontrol game-game ini atau apa pun yang terjadi pada data yang dibagikan.`
 			}
 		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
+			}
+		},
 		vendors: {
 			title: 'Informasi yang Kami Kumpulkan Tentang Anda',
 			description: 'Kami dan mitra kami menggunakan data Anda untuk tujuan berikut: <ul> <li>Untuk membantu kami memahami cara Anda menggunakan situs web kami dan untuk meneliti dan menyempurnakan fitur-fitur dan layanan.</li> <li>Untuk memastikan bahwa kami dapat mengingat preferensi situs web yang Anda pilih dan menyediakan konten yang disesuaikan untuk Anda.</li> <li>Untuk menampilkan iklan yang relevan dan untuk memungkinkan Anda membagikan konten melalui media sosial.</li> <li>Fungsionalitas lain yang dibutuhkan untuk menyediakan layanan game kami, seperti pembayaran.</li> </ul>',
@@ -720,6 +860,20 @@ export default {
 				title: 'Üçüncü Taraf Oyunları',
 				menu: 'Üçüncü Taraf Oyunları',
 				description: `Bu ayarı değiştirdiğinizde, web sitemizdeki üçüncü taraf oyunlarını oynama özelliğini açmış veya kapatmış olursunuz. Üçüncü taraf oyunları genellikle reklamverenlerin veya sosyal medya özelliklerinin takip çerezlerini içerir. Oynayabilmek için oyunlara kaydolmanız da gerekebilir. Bu oyunları veya paylaşılan verilerle neler yapıldığını denetlemediğimizi lütfen unutmayın.`
+			}
+		},
+		features: {
+			feature1: {
+				name: "Matching Data to Offline Sources",
+				description: "Combining data from offline sources that were initially collected in other contexts."
+			},
+			feature2: {
+				name: "Linking Devices",
+				description: "Allow processing of a user's data to connect such user across multiple devices."
+			},
+			feature3: {
+				name: "Precise Geographic Location Data",
+				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
 			}
 		},
 		vendors: {
