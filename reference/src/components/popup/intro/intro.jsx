@@ -49,7 +49,7 @@ export default class Intro extends Component {
 						<Button
 							onClick={onShowPurposes}
 							class={style.showSettings}
-							invert="true"
+							invert='true'
 						>
 							<LocalLabel localizeKey='showPurposes'>Settings</LocalLabel>
 						</Button>
