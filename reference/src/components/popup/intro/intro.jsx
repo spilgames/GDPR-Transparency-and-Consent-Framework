@@ -60,6 +60,10 @@ export default class Intro extends Component {
 					<a onClick={onShowVendors}>
 						<LocalLabel localizeKey='showVendors'>Vendor List</LocalLabel>
 					</a>
+					<span> | </span>
+					<a href="/privacy" target="_blank">
+						<LocalLabel localizeKey='privacyPolicy'>Privacy Policy</LocalLabel>
+					</a>
 				</div>
 			</div>
 		);
