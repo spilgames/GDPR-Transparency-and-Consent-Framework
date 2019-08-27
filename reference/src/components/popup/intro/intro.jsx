@@ -21,6 +21,7 @@ export default class Intro extends Component {
 		const {
 			onAcceptAll,
 			onShowPurposes,
+			onShowVendors,
 			onClose
 		} = props;
 
@@ -54,6 +55,15 @@ export default class Intro extends Component {
 							<LocalLabel localizeKey='showPurposes'>Settings</LocalLabel>
 						</Button>
 					</div>
+				</div>
+				<div class={style.links}>
+					<a onClick={onShowVendors}>
+						<LocalLabel localizeKey='showVendors'>Vendor List</LocalLabel>
+					</a>
+					<span> | </span>
+					<a href="/privacy" target="_blank">
+						<LocalLabel localizeKey='privacyPolicy'>Privacy Policy</LocalLabel>
+					</a>
 				</div>
 			</div>
 		);
