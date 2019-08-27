@@ -18,7 +18,8 @@ class LocalLabel extends Label {
 
 export default class Details extends Component {
 	state = {
-		selectedPanelIndex: SECTION_PURPOSES
+		selectedPanelIndex: this.props.showVendorList ?
+				SECTION_VENDORS : SECTION_PURPOSES
 	};
 
 	handleShowVendors = () => {
@@ -33,7 +34,8 @@ export default class Details extends Component {
 		this.setState({
 			selectedPanelIndex: Math.max(0, selectedPanelIndex - 1)
 		});
-		if (selectedPanelIndex === SECTION_PURPOSES) {
+		if (selectedPanelIndex === SECTION_PURPOSES ||
+				this.props.showVendorList) {
 			onCancel();
 		}
 	};
