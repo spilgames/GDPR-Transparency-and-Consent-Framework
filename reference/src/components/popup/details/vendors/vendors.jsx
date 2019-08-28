@@ -53,8 +53,6 @@ export default class Vendors extends Component {
 			featuresMap
 		} = props;
 		const { editingConsents } = this.state;
-		console.log(featuresMap);
-		console.log(purposesMap);
 
 		return (
 			<div class={style.vendors}>
