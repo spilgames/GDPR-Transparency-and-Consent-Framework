@@ -20,7 +20,6 @@ export default class Vendors extends Component {
 
 	static defaultProps = {
 		vendors: [],
-		purposesNames: [],
 		selectedVendorIds: new Set(),
 		selectVendor: () => {}
 	};
@@ -50,10 +49,12 @@ export default class Vendors extends Component {
 		const {
 			vendors,
 			selectedVendorIds,
-			purposesMap
-			// featuresMap
+			purposesMap,
+			featuresMap
 		} = props;
 		const { editingConsents } = this.state;
+		console.log(featuresMap);
+		console.log(purposesMap);
 
 		return (
 			<div class={style.vendors}>
@@ -131,7 +132,7 @@ export default class Vendors extends Component {
 											<ul>
 												{featureIds.map((featureId, index) => (
 													<li>
-														<Label prefix='features' localizeKey={'feature' + featureId + '.name'}></Label>
+														{featuresMap[featureId].name}
 													</li>
 												))}
 											</ul>
