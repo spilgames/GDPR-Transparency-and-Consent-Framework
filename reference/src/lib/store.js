@@ -334,7 +334,11 @@ export default class Store {
 		const {
 			vendors = [],
 			purposes = [],
+			features = [],
 		} = vendorList || {};
+
+		const purposesMap = {};
+		const featuresMap = {};
 
 		// If vendor consent data has never been persisted set default selected status
 		if (!created) {
@@ -349,6 +353,17 @@ export default class Store {
 			...vendors.map(({id}) => id),
 			...Array.from(selectedVendorIds));
 		this.vendorList = vendorList;
+
+		purposes.forEach((purpose) => {
+			purposesMap[purpose.id] = purpose;
+		});
+
+		features.forEach((features) => {
+			featuresMap[features.id] = features;
+		});
+
+		this.purposesMap = purposesMap;
+		this.featuresMap = featuresMap;
 		this.storeUpdate();
 	};
 

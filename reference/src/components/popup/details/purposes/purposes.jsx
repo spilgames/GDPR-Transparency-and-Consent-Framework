@@ -78,7 +78,7 @@ export default class Purposes extends Component {
 						<div class={[style.purposeItem, selectedPurposeIndex === index ? style.selectedPurpose : ''].join(' ')}
 							 onClick={this.handleSelectPurposeDetail(index)}
 						>
-							<LocalLabel localizeKey={`${index >= purposes.length ? 'customPurpose' : 'purpose'}${purpose.id}.menu`}>{purpose.name}</LocalLabel>
+							{purpose.name}
 						</div>
 					))}
 				</div>
@@ -87,7 +87,7 @@ export default class Purposes extends Component {
 					<div class={style.purposeDetail}>
 						<div class={style.detailHeader}>
 							<div class={style.title}>
-								<LocalLabel localizeKey={`${currentPurposeLocalizePrefix}.title`}>{selectedPurpose.name}</LocalLabel>
+								{selectedPurpose.name}
 							</div>
 							{!selectedPurpose.required &&
 							<div class={style.active}>
@@ -100,7 +100,7 @@ export default class Purposes extends Component {
 							}
 						</div>
 						<div class={style.body}>
-							<LocalLabel localizeKey={`${currentPurposeLocalizePrefix}.description`} />
+							{selectedPurpose.description}
 							<a class={style.vendorLink} onClick={onShowVendors}><LocalLabel localizeKey='showVendors'>Show full vendor list</LocalLabel></a>
 						</div>
 					</div>
