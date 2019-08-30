@@ -22,6 +22,7 @@ export default class Intro extends Component {
 			onAcceptAll,
 			onShowPurposes,
 			onShowVendors,
+			onShowFeatures,
 			onClose
 		} = props;
 
@@ -63,6 +64,10 @@ export default class Intro extends Component {
 					<span> | </span>
 					<a href="/privacy" target="_blank">
 						<LocalLabel localizeKey='privacyPolicy'>Privacy Policy</LocalLabel>
+					</a>
+					<span> | </span>
+					<a onClick={onShowFeatures}>
+						<LocalLabel localizeKey='features'>Features</LocalLabel>
 					</a>
 				</div>
 			</div>
