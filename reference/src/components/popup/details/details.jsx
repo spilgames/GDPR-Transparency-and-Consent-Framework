@@ -19,9 +19,13 @@ class LocalLabel extends Label {
 }
 
 export default class Details extends Component {
+	static get SECTION_PURPOSES() { return SECTION_PURPOSES; }
+	static get SECTION_VENDORS() { return SECTION_VENDORS; }
+	static get SECTION_FEATURES() { return SECTION_FEATURES; }
+
 	state = {
-		selectedPanelIndex: this.props.showVendorList ?
-				SECTION_VENDORS : (this.props.showFeatureList ?
+		selectedPanelIndex: this.props.detailsView === SECTION_VENDORS ?
+				SECTION_VENDORS : (this.props.detailsView === SECTION_FEATURES ?
 						SECTION_FEATURES : SECTION_PURPOSES)
 	};
 
@@ -38,7 +42,7 @@ export default class Details extends Component {
 			selectedPanelIndex: Math.max(0, selectedPanelIndex - 1)
 		});
 		if (selectedPanelIndex === SECTION_PURPOSES ||
-				this.props.showVendorList || this.props.showFeatureList) {
+				this.props.detailsView) {
 			onCancel();
 		}
 	};
@@ -105,7 +109,7 @@ export default class Details extends Component {
 				</div>
 				<div class={style.footer}>
 					<a class={style.cancel} onClick={this.handleBack}><LocalLabel localizeKey='back'>Back</LocalLabel></a>
-					{!this.props.showFeatureList &&
+					{this.props.detailsView !== SECTION_FEATURES &&
 						<Button class={style.save} onClick={onSave}><LocalLabel localizeKey='save'>Save and Exit</LocalLabel></Button>
 					}
 				</div>

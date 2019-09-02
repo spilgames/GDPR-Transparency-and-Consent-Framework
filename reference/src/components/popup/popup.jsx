@@ -10,9 +10,7 @@ const SECTION_DETAILS = 1;
 
 export default class Popup extends Component {
 	state = {
-		selectedPanelIndex: SECTION_INTRO,
-		showVendorList: false,
-		showFeatureList: false
+		selectedPanelIndex: SECTION_INTRO
 	};
 
 	onAcceptAll = () => {
@@ -26,31 +24,27 @@ export default class Popup extends Component {
 	onCancel = () => {
 		this.setState({
 			selectedPanelIndex: SECTION_INTRO,
-			showVendorList: false
+			detailsView: undefined
 		});
 	};
 
 	handleShowDetails = () => {
 		this.setState({
-			selectedPanelIndex: SECTION_DETAILS,
-			showVendorList: false,
-			showFeatureList: false
+			selectedPanelIndex: SECTION_DETAILS
 		});
 	};
 
 	handleShowVendors = () => {
 		this.setState({
 			selectedPanelIndex: SECTION_DETAILS,
-			showVendorList: true,
-			showFeatureList: false
+			detailsView: Details.SECTION_VENDORS
 		});
 	};
 
 	handleShowFeatures = () => {
 		this.setState({
 			selectedPanelIndex: SECTION_DETAILS,
-			showVendorList: false,
-			showFeatureList: true
+			detailsView: Details.SECTION_FEATURES
 		});
 	};
 
@@ -87,8 +81,7 @@ export default class Popup extends Component {
 							onSave={this.props.onSave}
 							onCancel={this.onCancel}
 							store={this.props.store}
-							showVendorList={this.state.showVendorList}
-							showFeatureList={this.state.showFeatureList}
+							detailsView={this.state.detailsView}
 							onClose={this.handleClose} />
 					</Panel>
 				</div>
