@@ -22,55 +22,6 @@ export default {
 			showVendors: 'Show full vendor list',
 			active: 'Active',
 			inactive: 'Inactive',
-			purpose1: {
-				title: 'Performance',
-				menu: 'Performance',
-				description: `These cookies are used to analyse how visitors use our website, for instance which pages visitors visit most often, in order to provide a better user experience. This information is already stored or access on your device such as advertising identifiers, device identifiers, cookies, and similar technologies.`
-			},
-			purpose2: {
-				title: 'Personalisation',
-				menu: 'Personalisation',
-				description: `Cookies and similar technologies are used to improve your experience, to do things like: remember your login, general preferences, personalise content, search, recommendations. Without these technologies, things like personalised recommendations, your account preferences may not work correctly.`
-			},
-			purpose3: {
-				title: 'Advertising',
-				menu: 'Advertising',
-				description: `Ads keep our content FREE for everyone. Please note that by altering the settings below, you'll still receive ads, but these will not be personalised to you. Advertising cookies are used to limit the number of times you see an advertisement, or to customise advertising on our website and make it more relevant to you and to allow us to measure the effectiveness of advertising campaigns. `
-			},
-			purpose4: {
-				title: 'Social Media',
-				menu: 'Social Media',
-				description: `Social media cookies allow you to log in to your social networks and share content from our website through social media.`
-			},
-			purpose5: {
-				title: 'Measurement',
-				menu: 'Measurement',
-				description: `The collection of information about your use of the content, and combination with previously collected information, used to measure, understand, and report on your usage of the service. This does not include personalisation, the collection of information about your use of this service to subsequently personalise content, and/or advertising for you in other contexts, i.e. on other services, such as websites or apps, over time.`
-			},
-			purpose6: {
-				title: 'Required',
-				menu: 'Required',
-				description: `Some of the technologies we use are necessary for critical functions like security and site integrity, account authentication, security and privacy preferences, internal site usage and maintenance data, and to make the site work correctly for browsing and transactions.`
-			},
-			purpose7: {
-				title: '3rd Party Games',
-				menu: '3rd Party Games',
-				description: `By changing this setting, you will or will not be able to play 3rd party games on our website. 3rd party games often include tracking cookies from advertisers or social media features. You may also be required to register in the games in order to play them. Please note that we do not control these games or what happens with the data that is shared.By changing this setting, you will or will not be able to play 3rd party games on our website. 3rd party games often include tracking cookies from advertisers or social media features. You may also be required to register in the games in order to play them. Please note that we do not control these games or what happens with the data that is shared.`
-			}
-		},
-		features: {
-			feature1: {
-				name: "Matching Data to Offline Sources",
-				description: "Combining data from offline sources that were initially collected in other contexts."
-			},
-			feature2: {
-				name: "Linking Devices",
-				description: "Allow processing of a user's data to connect such user across multiple devices."
-			},
-			feature3: {
-				name: "Precise Geographic Location Data",
-				description: "Allow processing of a user's precise geographic location data in support of a purpose for which that certain third party has consent."
-			}
 		},
 		vendors: {
 			title: 'Information We Collect About You',
