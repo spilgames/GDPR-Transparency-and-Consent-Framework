@@ -69,7 +69,6 @@ export default class Purposes extends Component {
 		const purposeIsActive = selectedPurposeIndex < purposes.length ?
 			selectedPurposeIds.has(selectedPurposeId) :
 			selectedCustomPurposeIds.has(selectedPurposeId);
-		const currentPurposeLocalizePrefix = `${selectedPurposeIndex >= purposes.length ? 'customPurpose' : 'purpose'}${selectedPurposeId}`;
 
 		return (
 			<div class={style.purposes}>
